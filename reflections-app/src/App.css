@@ -44,6 +44,7 @@
   border-radius: 10px;
   margin: 1%;
   color: white;
+  background-color: #15223883;
 }
 
 #header {
@@ -64,7 +65,7 @@
   grid-column: 2;
   grid-row: 2/5;
   margin: 1%;
-  color: blue;
+  color: black;
 }
 
 #footer{
@@ -88,7 +89,7 @@
 
 fieldset{
   border-radius: 10px;
-  border-color: black;
+  border: 2px solid black;
 }
 
 input {
@@ -100,6 +101,10 @@ button{
 }
 
 select {
+  border-radius: 10px;
+}
+
+textarea{
   border-radius: 10px;
 }
 
