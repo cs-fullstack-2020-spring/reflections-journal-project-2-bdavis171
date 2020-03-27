@@ -9,7 +9,21 @@ class ReflectionDisplay extends Component {
     render() { 
         return ( 
             <Fragment>
-                <h2>Display</h2>
+                <h2>Past Entries</h2>
+                <div id="past-entries">
+                    {this.props.entriesLog.map(
+                        (entry,inx) => {
+                            return (
+                                <div key = {inx}>
+                                    <p>Date: {entry.postDate}</p>
+                                    <p>Entry: {entry.postEntry}</p>
+                                    <p>Confidence Level: {entry.confidenceLevel}</p>
+
+                                </div>
+                            )
+                        }
+                    )}
+                </div>
             </Fragment>
          );
     }

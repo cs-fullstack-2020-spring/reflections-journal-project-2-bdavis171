@@ -40,24 +40,69 @@
 .container{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 1%;
+  color: white;
 }
 
 #header {
   grid-column: 1/3;
   grid-row: 1;
+  border-bottom: 3px solid black;
+  border-radius: 10px;
+  padding-bottom: 1%;
 }
 
 #reflect-form{
   grid-column: 1;
   grid-row: 2/5;
+  margin: 1%;
 }
 
 #reflect-display{
   grid-column: 2;
   grid-row: 2/5;
+  margin: 1%;
+  color: blue;
 }
 
 #footer{
   grid-column: 1/3;
   grid-row: 5;
+  border-top: 3px solid black;
+  border-radius: 10px;
+  padding-top: 1%;
+}
+
+.form-group{
+  margin: 1%;
+  padding: 1%;
+}
+
+#past-entries{
+  border: 2px solid black;
+  border-radius: 10px;
+  
+}
+
+fieldset{
+  border-radius: 10px;
+  border-color: black;
+}
+
+input {
+  border-radius: 10px;
+}
+
+button{
+  border-radius: 10px;
+}
+
+select {
+  border-radius: 10px;
+}
+
+html {
+  background-image: url('https://wallpaperaccess.com/full/1125377.jpg');
 }
